@@ -4,11 +4,21 @@
     %meta(charset="utf-8")
     %meta(content="IE=edge,chrome=1" http-equiv="X-UA-Compatible")
     %title= current_page.data.title || "Learn to program with Hashrocket"
-    -# = stylesheet_link_tag "reset", "all"
-    = stylesheet_link_tag "all"
+
+    = javascript_include_tag "http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/highlight.min.js"
     = javascript_include_tag  "all"
+
+    = stylesheet_link_tag "http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/styles/solarized_light.min.css"
+    = stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Source+Code+Pro|Vollkorn'
+    = stylesheet_link_tag "all"
 
   %body
     %header
       %h1 Learn to Program with Hashrocket
+      %ul
+        %li= link_to "Build web applications", '/learn_to_program.html'
+        %li= link_to "Learn Javascript", "#"
+        %li= link_to "Learning Git", "#"
+        %li= link_to "Learn Testing (Advanced)", "#"
+        %li= link_to "References", "/reference/index.html"
     = yield

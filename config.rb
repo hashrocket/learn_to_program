@@ -48,11 +48,9 @@ end
 # end
 
 set :css_dir, 'stylesheets'
-set :markdown_engine, :rdiscount
-
 set :js_dir, 'javascripts'
-
 set :images_dir, 'images'
+set :markdown_engine, :rdiscount
 
 # Build-specific configuration
 configure :build do

@@ -1,16 +1,19 @@
 # HTML Reference
 
-Sample HTML page
+__Sample HTML page__
+
 ```
-<!DOCTYPE htmll>
-<html>
-  <head>
-    <title>Title in here</title>
-  </head>
-  <body>
-    Body Content here
-  </body>
-</html>
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <title>Title in here</title>
+    </head>
+    <body>
+      Body Content here
+    </body>
+  </html>
+
 ```
 
 ---
