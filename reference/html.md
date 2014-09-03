@@ -13,7 +13,9 @@ Sample HTML page
 </html>
 ```
 
- How to use an Anchor (link) `<a>` within my own site
+---
+
+__How to use an Anchor (link) `<a>` within my own site__
 ```html
   <a href="/about">
     About Us
@@ -23,7 +25,9 @@ Sample HTML page
   About Us
 </a>
 
- How to use an Anchor (link) `<a>` to another website
+---
+
+__How to use an Anchor (link) `<a>` to another website__
 ```html
   <a href="http://google.com">
     Take me to Google
@@ -33,7 +37,9 @@ Sample HTML page
   Take me to Google
 </a>
 
-How do use a Unordered List `<ul>`
+---
+
+__How do use a Unordered List `<ul>`__
 
 ```html
 <ul>
@@ -64,7 +70,9 @@ How do use a Unordered List `<ul>`
   </li>
 </ul>
 
-How to use a Table `<table>`
+---
+
+__How to use a Table `<table>`__
 ```html
 <table>
   <thead>
