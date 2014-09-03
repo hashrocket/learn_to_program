@@ -1,4 +1,4 @@
-# Learn to Program with Hashrocket
+# This Course
 
 - 6 week course
 - 1 hour per day

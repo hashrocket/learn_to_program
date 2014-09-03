@@ -48,6 +48,7 @@ end
 # end
 
 set :css_dir, 'stylesheets'
+set :markdown_engine, :rdiscount
 
 set :js_dir, 'javascripts'
 
