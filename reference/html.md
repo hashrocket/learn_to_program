@@ -58,10 +58,11 @@ __Typing this:__
   <li>second item</li>
   <li>third item</li>
   <li>
+    fourth item
     <ul>
-      <li>first item in the fourth item</li>
-      <li>second item in the fourth item</li>
-      <li>third item in the fourth item</li>
+      <li>first sub item</li>
+      <li>second sub item</li>
+      <li>third sub item</li>
     </ul>
   </li>
 </ul>
@@ -74,10 +75,11 @@ __Results in this:__
   <li>second item</li>
   <li>third item</li>
   <li>
+    fourth item
     <ul>
-      <li>first item in the fourth item</li>
-      <li>second item in the fourth item</li>
-      <li>third item in the fourth item</li>
+      <li>first sub item</li>
+      <li>second sub item</li>
+      <li>third sub item</li>
     </ul>
   </li>
 </ul>
