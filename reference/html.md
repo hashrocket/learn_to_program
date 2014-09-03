@@ -1,7 +1,6 @@
 # HTML Reference
 
-##Sample HTML page
-
+Sample HTML page
 ```html
 <!DOCTYPE htmll>
 <html>
@@ -14,43 +13,27 @@
 </html>
 ```
 
-## How to use an Anchor (link) `<a>`
-
-### Link to a page within my own site
-
-__Typing this:__
-
+ How to use an Anchor (link) `<a>` within my own site
 ```html
   <a href="/about">
     About Us
   </a>
 ```
-
-__Results in the following:__
-
 <a href="/about">
   About Us
 </a>
 
-### Link to another website
-
-__Typing this:__
-
+ How to use an Anchor (link) `<a>` to another website
 ```html
   <a href="http://google.com">
     Take me to Google
   </a>
 ```
-
-__Results in this:__
-
 <a href="http://google.com">
   Take me to Google
 </a>
 
-## How do use a Unordered List `<ul>`
-
-__Typing this:__
+How do use a Unordered List `<ul>`
 
 ```html
 <ul>
@@ -67,9 +50,6 @@ __Typing this:__
   </li>
 </ul>
 ```
-
-__Results in this:__
-
 <ul>
   <li>first item</li>
   <li>second item</li>
@@ -84,10 +64,7 @@ __Results in this:__
   </li>
 </ul>
 
-## How to use a Table `<table>`
-
-__Typing this:__
-
+How to use a Table `<table>`
 ```html
 <table>
   <thead>
@@ -114,9 +91,6 @@ __Typing this:__
   </tbody>
 </table>
 ```
-
-__Results in this:__
-
 <table>
   <thead>
     <th>Name</th>
