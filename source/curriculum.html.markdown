@@ -17,8 +17,6 @@ Software Consultancy...
 - How a browser interprets html
 - HTML 5 and how elements are used
 - Commonly used elements
-  - html, head, body, header, section, footer, ul, li, table, tr, td, p, a,
-    img etc...
 - Html attributes- class, id, type, href, src
 - Multiple pages/files (links/hrefs) in a project
 

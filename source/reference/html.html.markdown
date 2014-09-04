@@ -1,24 +1,61 @@
 # HTML Reference
 
-__Sample HTML page__
+Sample HTML page
 
+```html
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Title in here
+    </title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        Main Header
+      </h1>
+    </header>
+    <section id="main">
+      Main Content in here ...
+    <section>
+    <footer>
+      Footer Content here ...
+    </footer>
+  </body>
+</html>
 ```
 
-  <!DOCTYPE html>
-  <html>
-    <head>
-      <title>Title in here</title>
-    </head>
-    <body>
-      Body Content here
-    </body>
-  </html>
+---
+
+Commonly used elements
+
+```html
+
+  <html>    - every html page starts with this
+  <head>    - everthing inside here loads first
+  <title>   - text that shows up in the browser's tab
+  <body>    - where all the content goes
+  <header>  - for the top of a section, or body, or article
+  <footer>  - for the bottom of a section, or body, or article
+  <ul>      - create an unordered list
+  <ol>      - create an ordered list
+  <li>      - used inside a list (ordered/unordered) for each item
+  <table>   - create a table
+  <tr>      - table row
+  <td>      - table cell/column
+  <p>       - paragraph
+  <a>       - anchor A.K.A. a link
+
+  <img src="image/path" />    - image (notice the "/". This is a self closing tag)
+  <input type="text" />       - field. Used in forms to enter information
 
 ```
 
 ---
 
-__How to use an Anchor (link) `<a>` within my own site__
+How to use an Anchor (link) `<a>` within my own site
 
 ```
 
@@ -34,7 +71,7 @@ __How to use an Anchor (link) `<a>` within my own site__
 
 ---
 
-__How to use an Anchor (link) `<a>` to another website__
+How to use an Anchor (link) `<a>` to another website
 
 ```
 
@@ -49,7 +86,7 @@ __How to use an Anchor (link) `<a>` to another website__
 
 ---
 
-__How do use a Unordered List `<ul>`__
+How do use a Unordered List `<ul>`
 
 ```
 
@@ -85,7 +122,42 @@ __How do use a Unordered List `<ul>`__
 
 ---
 
-__How to use a Table `<table>`__
+How do use a Ordered List `<ol>`
+
+```
+
+  <ol>
+    <li>first item</li>
+    <li>second item</li>
+    <li>third item</li>
+    <li>
+      fourth item
+      <ol>
+        <li>first sub item</li>
+        <li>second sub item</li>
+        <li>third sub item</li>
+      </ol>
+    </li>
+  </ol>
+
+```
+<ol>
+  <li>first item</li>
+  <li>second item</li>
+  <li>third item</li>
+  <li>
+    fourth item
+    <ol>
+      <li>first sub item</li>
+      <li>second sub item</li>
+      <li>third sub item</li>
+    </ol>
+  </li>
+</ol>
+
+---
+
+How to use a Table `<table>`
 
 ```
 
